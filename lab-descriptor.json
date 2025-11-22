@@ -84,10 +84,10 @@
 ],
   "targetAudience": {
     "UG": [
-      ""
+      "UG students"
     ],
     "PG": [
-      ""
+      "PG students"
     ]
   },
   "objective": "In this laboratory, students will get to explore and learn various concepts regarding Digital Control Systems and different experiments.The experiments are developed on open-source web-based platforms, so the student doesn't need to download or install any third-party applications. Each experiment is designed in such a way that the student first gets to learn the theories well and then performs the experiment to enhance their knowledge. This laboratory contains 10 experiments, through which students learn different control techniques.",
