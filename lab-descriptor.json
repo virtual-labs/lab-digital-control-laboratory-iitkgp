@@ -1,141 +1,116 @@
 {
   "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "name": "Electrical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+    "code": "EE"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": "Digital Control Laboratory",
+  "lab_display_name": "Digital Control Laboratory",
+  "phase": "3-ext",
+  "collegeName": "IITKGP",
+  "baseUrl": "dcl-iitkgp.vlabs.ac.in",
+  "introduction": "Engineering is concerned with understanding and controlling the materials and forces of nature for the benefit of humankind. Control system is concerned with understanding and controlling segments of the environment, often called systems, to provide useful economic products for society. The twin goals of understanding and controlling are complementary because effective systems control requires that the systems to be understood and modeled. <br/> In today's era the present challenges are the modeling and control of modern, complex, interrelated systems such as traffic control systems, chemical processes, robotic systems,useful and interesting industrial automation systems.Perhaps the most characteristic quality of control engineering is the opportunity to control machines and industrial and economic processes for the benefit of society.Control engineering is based on the foundations of feedback theory and linear system analysis, and it integrates the concepts of network theory and communication theory.Therefore control engineering is not limited to any engineering discipline but is equally applicable to aeronautical, chemical, mechanical, environmental, civil, and electrical engineering.<br/><br/>A digital control system uses digital hardware, usually in the form of a programmed digital computer, as the heart of the controller. The following block diagram shows the simple block diagram of a digital control system.<br/><div align='center'>
+<img class='img-fluid'  src='DCS BD.png'>
+<b>Fig. 1. Basic block diagram of a digital control system </b>
+</div><br/>
+
+In most cases, the measuring transducer (sensor) and the actuator (final control element) are analog devices, requiring, respectively, analog-to-digital (A/D) and digital-to-analog (D/A) conversion at the computer input and output.
+There are, of course, exception; sensors which combine the function of the transducer and the A/D converter, and actuators which combine the function of the D/A converter and the final control element are available.
+In most cases, however, our sensors will provide an analog voltage output, and our final control elements will accept an analog voltage input.<br/>
+
+The A/D converter performs the sampling of the sensor signal (analog feedback signal) and produces its binary representation.
+The digital computer (control algorithm) generates a digital control signal using the information on desired and actual plant behavior.
+The digital control signal is then converted to analog control signal via the D/A converter. A real-time clock synchronizes the actions of the A/D and D/A converters, and shift registers.
+The analog control signal is applied to the plant actuator to control the plant's behavior.<br/>
+The overall system is hybrid in nature; the signals are in the samples form (discrete-time signals) in the computer, and in a continuous form in the plant.
+Such systems have traditionally been called sampled-data systems; we will use this term as a synonym for compuer control systems/digital control systems.<br/>",
+  "experiments": [
+  {
+    "name": "Determine Frequency Response of Zero Order Hold and First Order Hold using Actual Transfer Functions and Pade Approximations",
+    "short-name": "zoh-foh",
+    "repo": "https://github.com/virtual-labs/exp-zoh-foh-iitkgp",
+    "tag": "Main",
+    "deploy": true
+  },
+  {
+    "name": "Mapping of S-Plane to Z-Plane Analytically and Verification using Simulation",
+    "short-name": "mapping-s-z-plane",
+    "repo": "https://github.com/virtual-labs/exp-mapping-s-z-plane-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Discretization of Continuous System",
+    "short-name": "discretization",
+    "repo": "https://github.com/virtual-labs/exp-discretization-impulse-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Compare the Frequency Responses using Different Methods and Sampling Times",
+    "short-name": "frequency-responses",
+    "repo": "https://github.com/virtual-labs/exp-iim-bilinear-transformation-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Determine the Pulse Transfer Function and State Space Model of the DC Motor",
+    "short-name": "pulse-dc-motor",
+    "repo": "https://github.com/virtual-labs/exp-pulse-control-system-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Controllability and Observability of Inverted Pendulum on Cart",
+    "short-name": "controllability-observability",
+    "repo": "https://github.com/virtual-labs/exp-controllability-observability-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Control Design via Pole Placement for an Inverted Pendulum on a Cart with Pre-Compensator Design",
+    "short-name": "pole-placement-precompensator",
+    "repo": "https://github.com/virtual-labs/exp-precompensator-design-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "State Observer and Controller Design for an Inverted Pendulum on a Cart",
+    "short-name": "state-observer",
+    "repo": "https://github.com/virtual-labs/exp-state-observer-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Design of Digital Control Systems with Deadbeat Response and Other Controllers",
+    "short-name": "digital-control",
+    "repo": "https://github.com/virtual-labs/exp-digital-control-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  },
+  {
+    "name": "Design of a Discrete PID Controller for a DC Motor",
+    "short-name": "discrete-pid",
+    "repo": "https://github.com/virtual-labs/exp-discrete-pid-controller-iitkgp",
+    "tag": "v1.0.0",
+    "deploy": true
+  }
+],
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      ""
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      ""
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "In this laboratory, students will get to explore and learn various concepts regarding Digital Control Systems and different experiments.The experiments are developed on open-source web-based platforms, so the student doesn't need to download or install any third-party applications. Each experiment is designed in such a way that the student first gets to learn the theories well and then performs the experiment to enhance their knowledge. This laboratory contains 10 experiments, through which students learn different control techniques.",
   "courseAlignment": {
     "description": "The syllabi of this lab aligns to the following universities in India.",
     "universities": [
       "Osmania University Data Structures Lab",
       "JNTU Data Structures Lab"
     ]
-
+  }
  
 }
