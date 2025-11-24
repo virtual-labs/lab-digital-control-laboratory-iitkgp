@@ -78,7 +78,7 @@
     "name": "Design of a Discrete PID Controller for a DC Motor",
     "short-name": "discrete-pid",
     "repo": "https://github.com/virtual-labs/exp-discrete-pid-controller-iitkgp",
-    "tag": "v1.0.0",
+    "tag": "v1.0.1",
     "deploy": true
   }
 ],
